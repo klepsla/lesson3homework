@@ -46,13 +46,19 @@ public class Main {
         int weightDesiredGramm = weightDesired * 1000;
         int dietOne = weightDesiredGramm / 250;
         System.out.println("При первом рационе понадобится " + dietOne + " дней.");
-        int dietTwo = weightDesiredGramm /500;
+        int dietTwo = weightDesiredGramm / 500;
         System.out.println("При втором рационе понадобится " + dietTwo + " дней.");
         int dietMiddle = (dietOne + dietTwo) / 2;
         System.out.println("Среднее количество дней для похудения " + dietMiddle + " .");
 
         //Задание № 5
-
+        int salaryMasha = 67760;
+        int yearSalaryMasha = salaryMasha * 12;
+        float upSalaryMasha = salaryMasha / 100f * 10;
+        float totalUpSalaryMasha = salaryMasha + upSalaryMasha;
+        float upYearSalaryMasha = upSalaryMasha * 12;
+        float differenceYearSalaryMasha = totalUpSalaryMasha - yearSalaryMasha;
+        System.out.println("Маша теперь получает " + totalUpSalaryMasha + " рублей." );
 
     }
 }
