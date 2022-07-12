@@ -25,6 +25,26 @@ public class Main {
         System.out.println("Разница в весе боксёров " + weightDifferenceBoxers + " кг.");
 
         //Задание № 3
+        byte banana = 5;
+        byte oneBanana = 80;
+        int weightBananos = banana * oneBanana;
+        short milkml = 200;
+        short milk100ml = 105;
+        int weightMilk = milkml / 100 * milk100ml;
+        byte iceCream = 2;
+        byte oneIceCream = 100;
+        int weightIceCream = iceCream * oneIceCream;
+        byte rawEggs = 4;
+        byte oneRawEggs = 70;
+        int weightRawEggs = rawEggs * oneRawEggs;
+        int weightProductsGramms = weightBananos + weightMilk + weightIceCream + weightRawEggs;
+        float weightProductsKG = weightProductsGramms / 1000f;
+        System.out.println("Общий вес продуктов в коктейле " + weightProductsKG + " кг.");
+
+        //Заданиее № 4
+
+        
+        
 
     }
 }
