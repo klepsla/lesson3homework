@@ -35,16 +35,24 @@ public class Main {
         byte oneIceCream = 100;
         int weightIceCream = iceCream * oneIceCream;
         byte rawEggs = 4;
-        byte oneRawEggs = 70;
-        int weightRawEggs = rawEggs * oneRawEggs;
+        byte oneRawEgg = 70;
+        int weightRawEggs = rawEggs * oneRawEgg;
         int weightProductsGramms = weightBananos + weightMilk + weightIceCream + weightRawEggs;
         float weightProductsKG = weightProductsGramms / 1000f;
         System.out.println("Общий вес продуктов в коктейле " + weightProductsKG + " кг.");
 
         //Заданиее № 4
+        byte weightDesired = 7;
+        int weightDesiredGramm = weightDesired * 1000;
+        int dietOne = weightDesiredGramm / 250;
+        System.out.println("При первом рационе понадобится " + dietOne + " дней.");
+        int dietTwo = weightDesiredGramm /500;
+        System.out.println("При втором рационе понадобится " + dietTwo + " дней.");
+        int dietMiddle = (dietOne + dietTwo) / 2;
+        System.out.println("Среднее количество дней для похудения " + dietMiddle + " .");
 
-        
-        
+        //Задание № 5
+
 
     }
 }
