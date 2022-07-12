@@ -57,8 +57,8 @@ public class Main {
         float upSalaryMasha = salaryMasha / 100f * 10;
         float totalUpSalaryMasha = salaryMasha + upSalaryMasha;
         float upYearSalaryMasha = upSalaryMasha * 12;
-        float differenceYearSalaryMasha = totalUpSalaryMasha - yearSalaryMasha;
-        System.out.println("Маша теперь получает " + totalUpSalaryMasha + " рублей." );
+        float differenceYearSalaryMasha = upYearSalaryMasha - yearSalaryMasha;
+        System.out.println("Маша теперь получает " + totalUpSalaryMasha + " рублей." + " Годовой доход вырос на" + differenceYearSalaryMasha + " рублей. " );
 
     }
 }
