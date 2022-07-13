@@ -63,7 +63,7 @@ public class Main {
         float yearSalaryDenis = upSalaryDenis * 12;
         float totalUpSalaryDenis = salaryDenis + upSalaryDenis;
         System.out.println("Денис теперь получает " + totalUpSalaryDenis + " рублей." + " Годовой доход вырос на "+ yearSalaryDenis + " рублей.");
-         int
+
         int salaryKristina = 76230;
         float upSalaryKristina = salaryKristina / 100f * 10;
         float yearSalaryKristina = upSalaryKristina * 12;
