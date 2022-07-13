@@ -38,17 +38,19 @@ public class Main {
         byte oneRawEgg = 70;
         int weightRawEggs = rawEggs * oneRawEgg;
         int weightProductsGramms = weightBananos + weightMilk + weightIceCream + weightRawEggs;
-        float weightProductsKG = weightProductsGramms / 1000f;
+        int kgInGramms = 1000;
+        double weightProductsKG = weightProductsGramms / (kgInGramms * 1.0);
         System.out.println("Общий вес продуктов в коктейле " + weightProductsKG + " кг.");
 
         //Заданиее № 4
         byte weightDesired = 7;
-        int weightDesiredGramm = weightDesired * 1000;
+        int grammInKg = 1000;
+        int weightDesiredGramm = weightDesired * grammInKg;
         int dietOne = weightDesiredGramm / 250;
         System.out.println("При первом рационе понадобится " + dietOne + " дней.");
         int dietTwo = weightDesiredGramm / 500;
         System.out.println("При втором рационе понадобится " + dietTwo + " дней.");
-        int dietMiddle = (dietOne + dietTwo) / 2;
+        double dietMiddle = (dietOne + dietTwo) / (2 * 1.0);
         System.out.println("Среднее количество дней для похудения " + dietMiddle + " .");
 
         //Задание № 5
