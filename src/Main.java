@@ -53,12 +53,21 @@ public class Main {
 
         //Задание № 5
         int salaryMasha = 67760;
-        int yearSalaryMasha = salaryMasha * 12;
         float upSalaryMasha = salaryMasha / 100f * 10;
+        float yearSalaryMasha = upSalaryMasha * 12;
         float totalUpSalaryMasha = salaryMasha + upSalaryMasha;
-        float upYearSalaryMasha = upSalaryMasha * 12;
-        float differenceYearSalaryMasha = upYearSalaryMasha - yearSalaryMasha;
-        System.out.println("Маша теперь получает " + totalUpSalaryMasha + " рублей." + " Годовой доход вырос на" + differenceYearSalaryMasha + " рублей. " );
+        System.out.println("Маша теперь получает " + totalUpSalaryMasha + " рублей." + " Годовой доход вырос на " + yearSalaryMasha + " рублей.");
 
+        int salaryDenis = 83690;
+        float upSalaryDenis = salaryDenis / 100f * 10;
+        float yearSalaryDenis = upSalaryDenis * 12;
+        float totalUpSalaryDenis = salaryDenis + upSalaryDenis;
+        System.out.println("Денис теперь получает " + totalUpSalaryDenis + " рублей." + " Годовой доход вырос на "+ yearSalaryDenis + " рублей.");
+
+        int salaryKristina = 76230;
+        float upSalaryKristina = salaryKristina / 100f * 10;
+        float yearSalaryKristina = upSalaryKristina * 12;
+        float totalUpSalaryKristina = salaryKristina + upSalaryKristina;
+        System.out.println("Кристина теперь получает " + totalUpSalaryKristina + " рублей. " + "Годовой доход вырос на " + yearSalaryKristina + " рублей.");
     }
 }
